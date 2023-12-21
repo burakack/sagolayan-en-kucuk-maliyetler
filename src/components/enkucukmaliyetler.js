@@ -152,7 +152,7 @@ const MatrixTable = () => {
     </Typography>
 
 
-</Grid>
+</Grid> 
     <Grid
       container
       sx={{
