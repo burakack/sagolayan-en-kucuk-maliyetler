@@ -11,6 +11,7 @@ import {
   IconButton,
   Button,
   TextField,
+  Typography,
 } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
@@ -133,6 +134,25 @@ const MatrixTable = () => {
   };
 
   return (
+    <>
+    
+    <Grid item
+    
+    sx={{
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      mt: 10,
+    }}>
+     
+
+    <Typography variant="h3" component="h3" gutterBottom>
+      Tanrı çizdi tüm resimleri
+    </Typography>
+
+
+</Grid>
     <Grid
       container
       sx={{
@@ -143,6 +163,8 @@ const MatrixTable = () => {
         mt: 10,
       }}
     >
+
+      
       <Grid item>
         <Grid
           item
@@ -295,6 +317,7 @@ const MatrixTable = () => {
         </TableContainer>
         </Grid>
     </Grid>
+    </>
   );
 };
 
